@@ -8,6 +8,8 @@
 
 // Bot & Packages
 const Discord = require("discord.js");
+const init = require("rscolor"); 
+init();
 const client = new Discord.Client({
     ws: { intents: new Discord.Intents(Discord.Intents.ALL) },
 });
